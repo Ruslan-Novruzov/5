@@ -11,47 +11,71 @@
 </head>
 
 <body>
-    <ul>
-        <ul>
-            <li><a href="Index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+    <ul class="header">
+        <li><a href="Index.html">Главная</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
     </ul>
-    <h2 class="heading_contacts">Contact us</h2>
-    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolore.
-    </p>
-    <img src="img/Contact-Us-p1ekeuq0402oxd8amzl4u0f3dyp8v6r3o78to6ufqk.png" alt="photo">
-    <h4 class="heading_mini">Address</h4>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-    <h4 class="heading_mini">Phone</h4>
-    <ul>
-        <li>+7 77 777 77 77</li>
-        <li>+7 12 222 22 22</li>
-    </ul>
-    <h4 class="heading_mini">Online service</h4>
-    <ul>
-        <li>www.gb.ru</li>
-        <li>gb@mail.ru</li>
-    </ul>
-    <h4 class="heading_mini">Send us message</h4>
+    <div class="contacts-header">
+        <h2 class="heading_contacts">Contact us</h2>
+        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolore.
+        </p>
+    </div>
     <form action="#">
-        Full name <input class="input_text" type="texts" placeholder="Ruslan"> <br>
-        Email <input class="input_text" type="email" placeholder="gb@mail.ru"> <br>
-        Message <br>
-        <textarea class="input_text" cols="20" rows="5"></textarea> <br>
-        <button class="submit_button" type="submit">Submit</button>
+        <div class="contacts_info">
+            <img src="img/  Contact-Us-p1ekeuq0402oxd8amzl4u0f3dyp8v6r3o78to6ufqk.png" alt="photo">
+            <h4 class="heading_mini">Address</h4>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <h4 class="heading_mini">Phone</h4>
+            <ul>
+                <li>+7 77 777 77 77</li>
+                <li>+7 12 222 22 22</li>
+            </ul>
+            <h4 class="heading_mini">Online service</h4>
+            <ul>
+                <li>www.gb.ru</li>
+                <li>gb@mail.ru</li>
+            </ul>
+        </div>
+        <div class="form">
+            <h4 class="heading_mini">Send us message</h4>
+            Full name <input class="input_text" type="texts" placeholder="Ruslan"> <br>
+            Email <input class="input_text" type="email" placeholder="gb@mail.ru"> <br>
+            Message <br>
+            <textarea class="input_text" cols="20" rows="5"></textarea> <br>
+            <button class="submit_button" type="submit">Submit</button>
+        </div>
     </form>
+    </div>
     <script type="text/javascript" charset="utf-8" async
         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af63e1320e9e450a0ebab1669fb4b92b3c5bbe6230110fea827566325aafcb0a9&amp;width=653&amp;height=503&amp;lang=ru_RU&amp;scroll=true"></script>
     <h3 class="heading">Lorem, ipsum dolor.</h3>
     <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, nostrum!</p>
-    <hr>
-    <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>+7 777 77 77</li>
-        <li>Gb@mail.ru</li>
-    </ul>
-    <p class="text">Все права защищены&copy;</p>
+    <div class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_text">
+                    <h3 class="heading">Lorem, ipsum dolor.</h3>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, nostrum!</p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_bottom">
+                <ul class="footer_info">
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>+7 777 77 77</li>
+                    <li>Gb@mail.ru</li>
+                </ul>
+                <div class="footer_copy">
+                    <p class="text">Все права защищены&copy;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 </body>
 
 </html>
