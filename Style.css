@@ -193,6 +193,37 @@ body {
   text-decoration: none;
 }
 
+.text_project {
+  width: 75%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  padding-top: 32px;
+}
+
+.project_item {
+  position: relative;
+}
+
+.project__text {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+
+.project__img {
+  width: 100%;
+}
+
 .heading__h3 {
   width: 340px;
 }
