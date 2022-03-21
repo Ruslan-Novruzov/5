@@ -42,7 +42,6 @@ body {
     margin-bottom: 32px;
 }
 .top_button {
-    padding: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -67,13 +66,9 @@ body {
     text-align: center;
     font-weight: 300;
     line-height: 46px;
-
-
-text-align: center;
-letter-spacing: 0.05em;
-
-color: #000000;
-
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 .heading_mini {
     font-size: 20px;
@@ -137,6 +132,10 @@ color: #000000;
 .main {
     display: flex;
 }
+.card_img {
+    padding-bottom: 51px;
+}
+
 
 
 

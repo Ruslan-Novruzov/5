@@ -178,4 +178,8 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.card_img {
+  padding-bottom: 51px;
+}
 /*# sourceMappingURL=Style.css.map */
