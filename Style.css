@@ -193,20 +193,33 @@ body {
   text-decoration: none;
 }
 
-.text_project {
+.text_pro {
   width: 75%;
-  margin: 0 auto;
+  margin: 32px auto 64px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.05em;
   color: #222222;
-  padding-top: 32px;
+  opacity: 1;
 }
 
 .project_item {
   position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.project__parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 32px;
 }
 
 .project__text {
@@ -220,8 +233,22 @@ body {
   right: 64px;
 }
 
+.pro_text_mini {
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
 .project__img {
   width: 100%;
+}
+
+.pro_item_marg {
+  margin-right: 32px;
 }
 
 .heading__h3 {
