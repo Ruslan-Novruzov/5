@@ -260,8 +260,11 @@ body {
   display: flex;
 }
 
-.footer_bg {
+.footer {
   background: #316099;
+  margin-top: 112px;
+  padding-top: 91px;
+  padding-bottom: 64px;
 }
 
 .footer_info {
@@ -271,22 +274,40 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: 64px;
 }
 
 .footer_text {
   color: #FFFFFF;
   width: 495px;
-  padding: 0 113px 96px;
+}
+
+.footer_top {
+  padding-bottom: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer_heading {
-  margin-top: 112px;
-  padding: 91px 0 32px;
   width: 340px;
   font-size: 36px;
   line-height: 46px;
+  text-align: left;
   letter-spacing: 0.05em;
   color: #FFFFFF;
+  font-weight: 400;
+  margin-bottom: 32px;
 }
 
 .text_foot {
@@ -304,5 +325,26 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  padding: 15px 80px;
+  text-decoration: none;
+}
+
+hr {
+  opacity: 0.4;
+}
+
+.footer_copy {
+  margin-top: 64px;
+}
+
+.li {
+  list-style: auto;
+  margin-right: 19px;
+}
+
+.copy_text {
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
 }
 /*# sourceMappingURL=Style.css.map */
