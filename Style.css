@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -349,5 +349,12 @@ hr {
 
 .header_img {
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 /*# sourceMappingURL=Style.css.map */
