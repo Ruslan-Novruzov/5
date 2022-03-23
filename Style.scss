@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 .top {
-    min-height: 768px;
+    height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .top_content {
@@ -30,7 +30,7 @@ body {
     flex-grow: 1;
     background-image: url(img/illustration.png);
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: right center;
     background-size: 45%;
 }
 .top_heading {
@@ -273,10 +273,9 @@ body {
         padding-right: 32px;
     }
     .top_info {
-        background-position: right 285px;
+        background-position: right 280px;
     }
     .card_box {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -289,8 +288,9 @@ body {
     padding-top: 24px;
     }
     .top {
-        min-height: 376px;
+        height: 376px;
         padding-bottom: 41px;
+        box-sizing: border-box;
     }
     .top_heading {
         width: 100%;
@@ -315,6 +315,20 @@ body {
         padding: 0 8px;
         line-height: 26px;
         margin-top: 32px;
+    }
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .card_box {
+        padding-top: 32px;
+    }
+    .what-we-do {
+        padding-top: 48px;
+    }
+    .card {
+        width: 100%;
     }
 }
 

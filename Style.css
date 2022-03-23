@@ -13,7 +13,7 @@ body {
 }
 
 .top {
-  min-height: 768px;
+  height: 768px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #EBF3FB), color-stop(31.12%, rgba(152, 195, 232, 0)));
   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
@@ -44,7 +44,7 @@ body {
           flex-grow: 1;
   background-image: url(img/illustration.png);
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: right center;
   background-size: 45%;
 }
 
@@ -358,12 +358,9 @@ hr {
     padding-right: 32px;
   }
   .top_info {
-    background-position: right 285px;
+    background-position: right 280px;
   }
   .card_box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -382,8 +379,10 @@ hr {
     padding-top: 24px;
   }
   .top {
-    min-height: 376px;
+    height: 376px;
     padding-bottom: 41px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .top_heading {
     width: 100%;
@@ -415,6 +414,20 @@ hr {
     padding: 0 8px;
     line-height: 26px;
     margin-top: 32px;
+  }
+  .heading {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .card_box {
+    padding-top: 32px;
+  }
+  .what-we-do {
+    padding-top: 48px;
+  }
+  .card {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=Style.css.map */
