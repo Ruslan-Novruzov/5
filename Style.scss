@@ -281,7 +281,18 @@ body {
     }
     .card {
         margin-bottom: 32px;
-    }    
+    } 
+    .footer_link {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 4px 30px;
+    }   
+    .footer_info {
+        flex-direction: column;
+    }
+    .li {
+        padding-bottom: 25px;
+    }
 }
 @media (max-width:667px) {
     .header {
@@ -356,6 +367,7 @@ body {
         top: 16px;
         left: 16px
     }
+    
 
    
 }

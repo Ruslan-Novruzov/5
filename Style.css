@@ -372,6 +372,20 @@ hr {
   .card {
     margin-bottom: 32px;
   }
+  .footer_link {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 4px 30px;
+  }
+  .footer_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .li {
+    padding-bottom: 25px;
+  }
 }
 
 @media (max-width: 667px) {
