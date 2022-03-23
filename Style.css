@@ -420,6 +420,9 @@ hr {
     line-height: 28px;
     text-align: center;
   }
+  .text_pro {
+    width: 100%;
+  }
   .card_box {
     padding-top: 32px;
   }
@@ -428,6 +431,32 @@ hr {
   }
   .card {
     width: 100%;
+  }
+  .project__parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 16px;
+  }
+  .project_item {
+    padding-bottom: 16px;
+  }
+  .pro_item_marg {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .project__text {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+  .pro_text_mini {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    left: 16px;
   }
 }
 /*# sourceMappingURL=Style.css.map */
